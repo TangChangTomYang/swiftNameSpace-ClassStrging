@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F357570208B77A1001F4B3B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F35756F208B77A1001F4B3B /* Storyboard.storyboard */; };
+		2F357572208B7F83001F4B3B /* UIButton+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F357571208B7F83001F4B3B /* UIButton+extension.swift */; };
 		2F40FF07208B42C7009181AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F40FF06208B42C7009181AE /* AppDelegate.swift */; };
 		2F40FF09208B42C7009181AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F40FF08208B42C7009181AE /* ViewController.swift */; };
 		2F40FF0C208B42C7009181AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F40FF0A208B42C7009181AE /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F35756F208B77A1001F4B3B /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		2F357571208B7F83001F4B3B /* UIButton+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+extension.swift"; sourceTree = "<group>"; };
 		2F40FF03208B42C7009181AE /* String2Obj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = String2Obj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F40FF06208B42C7009181AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F40FF08208B42C7009181AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 				2F40FF06208B42C7009181AE /* AppDelegate.swift */,
 				2F40FF08208B42C7009181AE /* ViewController.swift */,
 				2F40FF18208B4A17009181AE /* YRViewController.swift */,
+				2F357571208B7F83001F4B3B /* UIButton+extension.swift */,
 				2F40FF0A208B42C7009181AE /* Main.storyboard */,
+				2F35756F208B77A1001F4B3B /* Storyboard.storyboard */,
 				2F40FF0D208B42C7009181AE /* Assets.xcassets */,
 				2F40FF0F208B42C7009181AE /* LaunchScreen.storyboard */,
 				2F40FF12208B42C7009181AE /* Info.plist */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F40FF11208B42C7009181AE /* LaunchScreen.storyboard in Resources */,
+				2F357570208B77A1001F4B3B /* Storyboard.storyboard in Resources */,
 				2F40FF0E208B42C7009181AE /* Assets.xcassets in Resources */,
 				2F40FF0C208B42C7009181AE /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F40FF19208B4A17009181AE /* YRViewController.swift in Sources */,
+				2F357572208B7F83001F4B3B /* UIButton+extension.swift in Sources */,
 				2F40FF09208B42C7009181AE /* ViewController.swift in Sources */,
 				2F40FF07208B42C7009181AE /* AppDelegate.swift in Sources */,
 			);
